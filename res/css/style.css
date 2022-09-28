@@ -1,11 +1,31 @@
 * {
     font-family: sans-serif;
     box-sizing: border-box;
-    /*
-       CSS comment
-       The box-sizing CSS property sets how the total width and height of an element are calculated. 
-       If you set box-sizing: border-box; on an element, padding, and border are included in the width and height:
-    */
+}
+
+.nav {
+    margin-top: 5px;
+}
+
+.nav .link {
+    padding: 10px 15px;
+    text-align: center;
+    display: block;
+    color: #000000;
+    font-size: .99em;
+}
+
+.nav .verticalBar{
+    padding: 10px 15px;
+    text-align: center;
+    display: block;
+    color: #000000;
+    font-size: .99em;
+}
+
+.nav .link:hover {
+    background-color:rgb(122, 122, 122);
+    color: #000000;
 }
 
 body {
@@ -17,18 +37,11 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    /* 
-       list-style: none = No marker is shown 
-     */
 }
 
 .link {
     color: #000000;
     text-decoration: none;
-    /* 
-       text-decoration: none - is used here to not show underlining under an anchor element when a mouse hovers over it.
-       Comment it out and check the result on the page.
-     */
 }
 
 .logo {
@@ -39,34 +52,19 @@ ul {
 
 .header {
     padding-top: .5em;
-    padding-bottom: .5em;
-    border: 1px solid #646174;
+    padding-bottom: .5em;   
     background-color: rgb(192, 192, 192);
-    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-
-    /* 
-    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-
-    -webkit-box-shadow and -moz-box-shadow were browser-specific box-shadow implementations for
-     WebKit browsers like Google Chrome and Safari, and mozilla firefox. Such prefixes are, usually
-     used, when a new CSS feature appears and disappears when the feature is fully supported by 
-     the browser.
-
-     In short, concerning Vendor Prefixes (-webkit, -moz, etc.):  
-       1- A new CSS feature appears;
-       2- Browsers test the feature; 
-       3- Browsers add a prefix to it to allow using it;
-       4- There is no need for the prefix anymore when the feature is fully supported.
-     */
-
     border-radius: 15px;
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px;
+    /*
+    border: 1px solid #646174;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    */
 }
 
-.mid {
+.middle {
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -86,26 +84,27 @@ ul {
     margin-right: 10px;
     margin-bottom: -10px;
 }
+
 .center .post{
     margin-bottom: 10px;
     background-color: rgb(192, 192, 192);
     border-radius: 15px;
 }
 
-.center .post .line .logoPost{
+.center .post .postHeader .logoPost{
     display: inline-block;
     margin-top: 5px;
     margin-left: 5px;
 }
 
-.center .post .line .date {
+.center .post .postHeader .date {
     display: inline-block;
     vertical-align: top;
     float: right;
     margin-right: 5px;
 }
 
-.center .post .pic {
+.center .post .photo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -131,48 +130,19 @@ ul {
 .footer {
     padding-top: .5em;
     padding-bottom: .5em;
-    border: 1px solid #646174;
     background-color: rgb(192, 192, 192);
-    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
     border-radius: 5px;
     text-align: center;
     border-radius: 15px;
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 10px;
-}
-
-.nav {
-    margin-top: 5px;
-}
-
-.nav .link {
-    padding: 10px 15px;
-    text-align: center;
-    display: block;
-    color: #000000;
-    font-size: .99em;
-}
-
-.nav .p{
-    padding: 10px 15px;
-    text-align: center;
-    display: block;
-    color: #000000;
-    font-size: .99em;
-}
-
-/* Pseudo-class selector */
-.nav .link:hover {
-    background-color: #6d7e7c;
-    color: #000000;
+    margin-bottom: 5px;
 }
 
 /* 
-    Applies when the browser's width is 800px wide or wider: 
+    Applies when the browser's width is 0px wide or wider: 
 */
-
 @media (min-width: 0px) {
 
     .header,
@@ -189,48 +159,36 @@ ul {
 }
 
 /* 
-    Applies when the browser's width is 1000px wide or wider: 
+    Applies when the browser's width is 0px wide or wider and less than 500px: 
 */
-
-/*
-@media (min-width: 1000px) {
-    .header {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-*/
-
 @media (min-width: 0px) and (max-width: 500px){
 
     .left {
         display: none;
     }
-
     .center{
         width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
-
     .right {
         display: none;
     }
 
 }
 
+/* 
+    Applies when the browser's width is 500px wide or wider: 
+*/
 @media (min-width: 500px) {
 
     .left {
         width: 20%;
         
     }
-
     .center{
         width: 60%;
     }
-
-
     .right {
         width: 20%;
     }
