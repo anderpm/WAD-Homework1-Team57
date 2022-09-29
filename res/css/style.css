@@ -5,6 +5,7 @@
 
 .nav {
     margin-top: 5px;
+    margin-left: 1%;
 }
 
 .nav .link {
@@ -24,6 +25,12 @@
 }
 
 .nav .link:hover {
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     background-color:rgb(122, 122, 122);
     color: #000000;
 }
@@ -47,7 +54,7 @@ ul {
 .logo {
     margin: 0;
     font-size: 1.1em;
-    margin-right: 10px;
+    margin-right: 2%;
 }
 
 .header {
@@ -83,25 +90,28 @@ ul {
     display: inline;
     margin-right: 10px;
     margin-bottom: -10px;
+    height: 500px;
+    width: auto;
+    overflow-y: scroll;
 }
 
 .center .post{
     margin-bottom: 10px;
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(218, 214, 214);
     border-radius: 15px;
 }
 
 .center .post .postHeader .logoPost{
     display: inline-block;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 2%;
 }
 
 .center .post .postHeader .date {
     display: inline-block;
     vertical-align: top;
     float: right;
-    margin-right: 5px;
+    margin-right: 5%;
 }
 
 .center .post .photo {
