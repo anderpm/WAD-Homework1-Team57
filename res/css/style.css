@@ -268,6 +268,18 @@ ul {
     width: 75px;
     margin-top: 12px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form input[type = "submit"]:disabled{
+    background-color: #a8b6c5;
+    border: 0px;
+    color: white;
+    height: 30px;
+    width: 75px;
+    margin-top: 12px;
+    border-radius: 5px;
+    cursor: auto;
 }
 
 .login-form h4{
