@@ -47,7 +47,7 @@
     color: #000000;
     font-size: .99em;
 }
-
+/* ID selecto */
 .nav-post .postverticalBar{
     padding: 10px 15px;
     text-align: center;
@@ -55,7 +55,7 @@
     color: #000000;
     font-size: .99em;
 }
-
+/* pseudo-elemen */
 .nav-post .postlink:hover {
     -moz-border-radius-topleft: 10px;
     -moz-border-radius-topright: 10px;
@@ -88,7 +88,7 @@ ul {
     font-size: 1.1em;
     margin-right: 2%;
 }
-
+/* class selectors */
 .header {
     padding-top: .5em;
     padding-bottom: .5em;   
@@ -281,16 +281,17 @@ ul {
     border-radius: 5px;
     cursor: auto;
 }
-
+/* Descendant Selector */
 .login-form h4{
     margin-top:5px;
     font-size: 12px;
 }
-
+/* Descendant Selector */
 .login-form h2{
     font-size: 20px;
 }
 
+/* Child Selector */
 .login-form p > a, .login-form h4 > a{
     color: rgb(0, 204, 255);
     text-decoration: none;
@@ -341,6 +342,7 @@ label {
     margin-right: 200px;
   }
 
+  /* ID selector */
 .submit-post{
     align-items: center;
     cursor: pointer;
@@ -360,9 +362,4 @@ label {
     width: 100px;
     align-items: center;
     cursor: pointer;
-}
-
-
-.file-btn{
-    
 }
