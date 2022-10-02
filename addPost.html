@@ -8,12 +8,28 @@
     </head>
 </html>
 <body>
-    <header>
-        <ul class="nav-post">
-            <li><a class="postlink" href="/index.html">Home</a></li>
-            <li><a class="postverticalBar">|</a></li>
-            <li><a class="postlink" href="#">addPost</a></li>
+    <header class="header">
+        <ul class="nav">
+            <li><a class="link" href="/index.html">Home</a></li>
+            <li><a class="verticalBar">|</a></li>
+            <li><a class="link" href="#">addPost</a></li>
         </ul>
-        <a class="logo" href="#"><img src="res/images/user.png" width="50" height="50" alt="My picture"></a>
+        <a class="logo" href="./login.html"><img src="res/images/user.png" width="50" height="50" alt="My picture"></a>
     </header>
+
+
+    <form class="post-form" action="index.html" method="post">
+        Post body
+        <textarea name="post-text" placeholder="textarea"> </textarea>
+        Select file
+        <input type="file" name="file" placeholder="Choose file" id = "file-btn" value="Choose file" hidden>
+        <label for="file-btn">Choose file</label>
+        <br>
+        <p>
+            <input type="submit" name="post" value="Create post">
+
+        </p>
+
+    </form>
+    
 </body>
