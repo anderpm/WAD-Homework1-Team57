@@ -122,9 +122,8 @@ ul {
     display: inline;
     margin-right: 10px;
     margin-bottom: -10px;
-    height: 500px;
+    height: auto;
     width: auto;
-    overflow-y: scroll;
 }
 
 .center .post{
@@ -180,6 +179,18 @@ ul {
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 5px;
+}
+
+.post > .comment {
+    font-weight: bold;
+}
+
+.postHeader ~ .comment {
+    text-decoration: underline;
+}
+
+.pAdd + .chooseAdd {
+    background-color: black;
 }
 
 /* 
@@ -348,9 +359,4 @@ label {
     width: 100px;
     align-items: center;
     cursor: pointer;
-}
-
-
-.file-btn{
-    
 }
