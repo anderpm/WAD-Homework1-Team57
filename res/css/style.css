@@ -35,6 +35,38 @@
     color: #000000;
 }
 
+.nav-post {
+    margin-top: 5px;
+    margin-left: 1%;
+}
+
+.nav-post .postlink {
+    padding: 10px 15px;
+    text-align: center;
+    display: block;
+    color: #000000;
+    font-size: .99em;
+}
+
+.nav-post .postverticalBar{
+    padding: 10px 15px;
+    text-align: center;
+    display: block;
+    color: #000000;
+    font-size: .99em;
+}
+
+.nav-post .postlink:hover {
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color:rgb(122, 122, 122);
+    color: #000000;
+}
+
 body {
     line-height: 1.6;
     margin: 0;
