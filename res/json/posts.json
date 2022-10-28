@@ -1,0 +1,51 @@
+[{
+    "postId": 1,
+    "authorId": 10,
+    "authorName": "Mikel Oyarzabal",
+    "createTime": "Oct 24, 2022",
+    "comment": "Tartu 2022",
+    "likes": 21,
+    "photo": "res/images/tartu.jpg",
+    "explicitContent": "No"
+},
+{
+    "postId": 2,
+    "authorId": 7,
+    "authorName": "Cristiano Ronaldo",
+    "createTime": "Oct 6, 2022",
+    "comment": "Anyone knows in which room is the lab today?",
+    "likes": 384,
+    "photo": "",
+    "explicitContent": "No"
+},
+{
+    "postId": 3,
+    "authorId": 20,
+    "authorName": "Aritz Basurco",
+    "createTime": "Oct 23, 2022",
+    "comment": "Fox, one of my favorite animals",
+    "likes": 21,
+    "photo": "res/images/fox.jpg",
+    "explicitContent": "No"
+},
+{
+    "postId": 4,
+    "authorId": 22,
+    "authorName": "Ander Pollacino",
+    "createTime": "Oct 22, 2022",
+    "comment": "San Sebastian",
+    "likes": 21,
+    "photo": "res/images/ss.jpg",
+    "explicitContent": "No"
+},
+{
+    "postId": 5,
+    "authorId": 19,
+    "authorName": "Alo Vahtre",
+    "createTime": "Oct 2, 2022",
+    "comment": "Tallin, the capital of Estonia",
+    "likes": 384,
+    "photo": "res/images/tallin.jpg",
+    "explicitContent": "No"
+}
+]
