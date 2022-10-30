@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Add post</title>
         <link rel="stylesheet" href="res/css/style.css">
+        <script type="text/javascript" src="src/js/script.js"></script>
+
     </head>
 </html>
 <body>
@@ -14,7 +16,14 @@
             <li><a class="verticalBar">|</a></li>
             <li><a class="link" href="./addPost.html">Add post</a></li>
         </ul>
-        <a class="logo" href="./login.html"><img src="res/images/user.png" width="50" height="50" alt="My picture"></a>
+        <div class="dropdown">
+            <img src="res/images/user.png" width="50" height="50" alt="My picture" onclick="toggleDropdown()" class="dropbtn">
+            <div id="myDropdown" class="dropdown-content">
+                <p >John Doe</p>
+                <p >john.doe@ut.ee</p>
+                <a href="./login.html">Logout</a>
+            </div>
+        </div>
     </header>
 
 

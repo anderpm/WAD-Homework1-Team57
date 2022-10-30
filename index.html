@@ -6,6 +6,7 @@
 	<title>Homework #1</title>
     <link rel="stylesheet" href="res/css/style.css">
     <script type="text/javascript" src="src/js/posts.js"></script>
+    <script type="text/javascript" src="src/js/script.js"></script>
 </head>
 <body>
 
@@ -15,7 +16,15 @@
             <li><a class="verticalBar">|</a></li>
             <li><a class="link" href="./addPost.html">Add post</a></li>
         </ul>
-        <a class="logo" href="./login.html"><img src="res/images/user.png" width="50" height="50" alt="My picture"></a>
+
+        <div class="dropdown">
+            <img src="res/images/user.png" width="50" height="50" alt="My picture" onclick="toggleDropdown()" class="dropbtn">
+            <div id="myDropdown" class="dropdown-content">
+                <p >John Doe</p>
+                <p >john.doe@ut.ee</p>
+                <a href="./login.html">Logout</a>
+            </div>
+        </div>
     </header>
 
     <div class="middle">
