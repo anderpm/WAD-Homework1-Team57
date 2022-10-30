@@ -47,5 +47,55 @@
     "likes": 384,
     "photo": "res/images/tallin.jpg",
     "explicitContent": "No"
+},
+{
+    "postId": 6,
+    "authorId": 23,
+    "authorName": "Victoria Federica",
+    "createTime": "Oct 3, 2022",
+    "comment": "I'm hungry",
+    "likes": 1000,
+    "photo": "",
+    "explicitContent": "No"
+},
+{
+    "postId": 7,
+    "authorId": 24,
+    "authorName": "German Garmendia",
+    "createTime": "Oct 31, 2022",
+    "comment": "I love you",
+    "likes": 2,
+    "photo": "",
+    "explicitContent": "No"
+},
+{
+    "postId": 8,
+    "authorId": 25,
+    "authorName": "Vinicius Jr",
+    "createTime": "Oct 3, 2022",
+    "comment": "The planet earth turns slowly",
+    "likes": 800,
+    "photo": "",
+    "explicitContent": "No"
+},
+{
+    "postId": 9,
+    "authorId": 26,
+    "authorName": "Africa Maria",
+    "createTime": "Oct 18, 2022",
+    "comment": "I'm a Swiftie",
+    "likes": 3000,
+    "photo": "",
+    "explicitContent": "No"
+},
+{
+    "postId": 10,
+    "authorId": 27,
+    "authorName": "Sofia Bravo",
+    "createTime": "Oct 2, 2022",
+    "comment": "I need a pug i'm my life",
+    "likes": 2,
+    "photo": "",
+    "explicitContent": "No"
 }
 ]
